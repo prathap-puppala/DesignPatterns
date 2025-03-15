@@ -1,5 +1,7 @@
 package behavioral.strategy;
 
+// Strategy pattern is used when different algorithms exists for same task,
+// and we want to decide algorithm at Runtime
 public class Main {
     public static void main(String[] args) {
         PaymentService paymentService = new PaymentService();
